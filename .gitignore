@@ -1,0 +1,16 @@
+# datasets & heavy artifacts
+data/
+data/Market1501/
+data/PA100k/
+data/PETA/
+data/*.zip
+
+# python
+__pycache__/
+*.pyc
+
+# trained weights (kept in git-lfs)
+weights/*.pt
+
+# locally rebuilt submission zips
+submission_zip/*.zip
